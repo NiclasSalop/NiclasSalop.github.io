@@ -498,19 +498,19 @@ a:focus {
 }
 
 .contact_section input::-webkit-input-placeholder {
-  color: #000;
+  color: #e30a0a;
 }
 
 .contact_section input:-ms-input-placeholder {
-  color: #000;
+  color: #9e0d0d;
 }
 
 .contact_section input::-ms-input-placeholder {
-  color: #000;
+  color: #ab1717;
 }
 
 .contact_section input::placeholder {
-  color: #000;
+  color: #b99100;
 }
 
 .contact_section input {
@@ -561,6 +561,15 @@ a:focus {
   background-color: #fd9e2e;
   color: #fff;
   padding: 10px 55px;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 35px;
+}
+.contact_form-container a {
+  border: none;
+  background-color: #fd9e2e;
+  color: #fff;
+  padding: 10px 53.4px;
   font-size: 15px;
   text-transform: uppercase;
   margin-top: 35px;
